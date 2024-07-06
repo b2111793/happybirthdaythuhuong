@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+ <html lang="en">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="icon" type="image/png" href="./img/CILKGax.png">
+        <!-- Tiêu đề của trang dòng thời gian -->
+		<title>Thiệp chúc mừng</title>	    
+        <link rel="stylesheet" href="./css/greetting_card.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body>
+        <div class="buttons">
+            <!-- Chữ ở menu bạn có thể sửa lại theo ý của bạn -->
+            <a href="hpbd.html" class="btn btn-bir">Sinh nhật</a>
+            <a href="greetting_card.html" class="btn btn-timeline">Thiệp chúc mừng</a>
+            <a href="gallery.html" class="btn btn-gallery">Ảnh kỷ niệm</a>
+            <a href="pictures.html" class="btn btn-timeline">Danh sách ảnh</a>
+            <a href="heart.html" class="btn btn-bir">Trái tim</a>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="jumbotron img_banner_hpbd">
+                <div class="text-center text-danger bg-danger">
+                    <h1>TO: NGUYỄN THỊ THU HƯỜNG</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="row ">
+                <div class="col-xs-4 col-md-4 col-sm-4">
+                    <p style="padding-top: 5px"></p>
+                    <!-- <span class="text-capitalize text-right bottom-align-text">
+                        <button type="button" class="btn btn-danger btn-lg text-danger" data-toggle="modal" data-target="#myModal">
+                            OPEN CARD
+                        </button>
+                        <p></p>
+                    </span> -->
+                </div>
+                <div id="bond" class="col-xs-8 col-md-8 col-sm-8 text-center">
+                    <button type="button" class=""></button>
+                    <img data-toggle="modal" data-target="#myModal" class="media-object img-responsive img-thumbnail bg-snow-tranparent-hidden"
+                        src="img/Winter happy birthday.jpg" alt="80x80px" style="height: 360px">
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title text-info" id="myModalLabel">Thiệp chúc mừng sinh nhật</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="containeri">
+                            <img class="img img-responsive" src="img/Winter happy birthday.jpg" alt="80x80px" style="height: 560px">
+                        </div>
+                        <h1 class="heading text-danger bg-danger">
+                            <div class="containeri">
+                                <img class="img img-responsive" style="opacity: 0.1;" src="img/cake.jpg">
+                                <p class="top-1">Chúc Thu Hường tuổi mới vui vẻ</p>
+                                <p class="top-2">Học tập đạt kết quả tốt</p>
+                                <p class="top-3">Ngày càng xinh xắn dễ thương</p>
+                                <p class="top-4">Hoàn thành mục tiêu mong muốn</p>
+                                <p class="top-5">Vượt qua thử thách khó khăn</p>
+                                <p class="top-6">Đặc biệt là nhanh lớn nè ^-^</p>
+                                <p class="top-7">Chúc mừng sinh nhật Thu Hường <i class="fa-solid fa-heart" style="color: red;"></i></p>
+                                <div class="top-8">Your Lover, HaLe</div>
+                            </div>
+                        </h1>
+                        <div class="containeri">
+                            <img class="img img-responsive" src="./img/MyAvatar.jpg">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <!-- <button type="button" class="btn btn-primary">OK</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Phần nhạc -->
+    <audio id="player" autoplay loop>
+        <source src="./music/music.mp3" type="audio/mp3" />
+    </audio>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- required, default behaviour -->
+    <script src="js/js01.js"></script>
+</body>
+</html>

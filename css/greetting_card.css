@@ -1,0 +1,98 @@
+body {
+    background-image: url("../img/9SHW2XH.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    font-family: "Fredoka One", cursive;
+    color: white;
+  }
+  .img_banner_hpbd { 
+    background-image: url("../img/hpbd.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto;
+  }
+  h1.heading {
+    font-family: "Pacifico", cursive;
+  }
+  .jumbotron {
+    opacity: 0.4;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+  h4 {
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  .containeri {
+    position: relative;
+    text-align: center;
+  }
+  .top-1 {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    color: #4A26AB;
+    font-size: 80%;
+  }
+  
+  .top-2 {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    color: #4A26AB;
+    font-size: 80%;
+  }
+
+  .top-3 {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    color: #4A26AB;
+    font-size: 80%;
+  }
+  
+  .top-4 {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    color: #4A26AB;
+    font-size: 80%;
+  }
+
+  .top-5 {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    color: #4A26AB;
+    font-size: 80%;
+  }
+
+  .top-6 {
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    color: #4A26AB;
+    font-size: 80%;
+  }
+  .top-7 {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    color: #4A26AB;
+    font-size: 80%;
+  }
+
+  .top-8 {
+    position: absolute;
+    bottom: 10%;
+    right: 4%;
+    color: #b78690;
+    font-size: 50%;
+  }
+  
+  .containeri p{
+    text-shadow: 0 0 5px #0099FF, 0 0 10px #0099FF, 0 0 20px #0099FF, 0 0 40px #0099FF;
+  }
+
+  .containeri p i{
+    text-shadow: 0 0 5px #FF33CC, 0 0 10px #FF33CC, 0 0 20px #FF33CC, 0 0 40px #FF33CC;
+  }

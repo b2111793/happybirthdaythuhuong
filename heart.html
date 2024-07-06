@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="./img/CILKGax.png" />
+        <!-- 1. Tiêu đề của file index -->
+        <title>Trái tim</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/heart.css">
+    </head>
+ 
+<body>
+    <div class="buttons">
+        <!-- Chữ ở menu bạn có thể sửa lại theo ý của bạn -->
+        <a href="hpbd.html" class="btn btn-bir">Sinh nhật</a>
+        <a href="greetting_card.html" class="btn btn-timeline">Thiệp chúc mừng</a>
+        <a href="gallery.html" class="btn btn-gallery">Ảnh kỷ niệm</a>
+        <a href="pictures.html" class="btn btn-timeline">Danh sách ảnh</a>
+        <a href="heart.html" class="btn btn-bir">Trái tim</a>
+    </div>
+    <div class="main-heart">
+        <h1 id="ThuHuong" title="You are my lover :3">
+            <a>Thu Hường <i class="fa-solid fa-heart"></i></a>
+        </h1>
+        <div class="box">
+            <canvas id="pinkboard"></canvas>
+        </div>
+    </div>
+    <!-- Phần nhạc -->
+    <audio id="player" autoplay loop>
+        <source src="./music/thisPlaceHasMe.mp3" type="audio/mp3" />
+    </audio>
+    <script src="./js/heart.js"></script>
+</body>
+</html>
